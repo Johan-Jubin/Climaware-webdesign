@@ -12,8 +12,8 @@ images[4] = 'images/5th-bg.jpg';
 //change image
 function changeImg(){
     document.slide.src = images[i];
-
-    if(i < images,length - 1){
+    
+    if(i < images, 1000){
         i++;
     } else {
         i=0;
@@ -23,3 +23,5 @@ function changeImg(){
 }
 
 window.onload = changeImg;
+/*<!--<img class='demo' src="images/1st-bg.jpg">--!/>*/
+

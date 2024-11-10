@@ -1,13 +1,75 @@
+:root{
+    --pri-color:#142434;
+    --sec-color:#17fcfc;
+    --ter-color:#71AC3C;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
 body{
     background-color: rgb(31, 39, 49);
     color:white;
 }
+.navbar{
+    background-color: rgba(0,0,0,0.2);
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
 ion-icon{
-    color:#ff0000;
+    color:var(--ter-color);
+}
+.nav-utilities{
+    margin:0 10% 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-utilities div{
+    padding:0 1.5em 0 1.5em;
+}
+.search-input{
+    border-radius:7px;
+    padding:0.4em;
+    transition: border 0.5s ease;
+}
+.search-input:hover{
+    border:5px var(--ter-color) solid;
+    cursor: text;
+}
+.search-bar ion-icon{
+    width: 30px;
+    height: 30px;
+    margin-bottom:-0.5em;
+    cursor: pointer;
+}
+.login-btn button{
+    border: none;
+    border-radius: 7px;
+    padding: 10px;
+    background-color: var(--sec-color);
+    color:var(--pri-color);
+    transition:scale 2s ease;
+}
+.login-btn button:hover{
+    scale:1.25;
+    text-decoration: underline;
 }
 
+.drop-down ion-icon{
+    height: 40px;
+    width: 40px;
+    cursor:pointer;
+    
+}
+.drop-down ion-icon:hover{
+   color:white;
+}
 .logo{
-    width:50px;
+    width:100px;
     height: 100px;
 }
 .slideshow img{
@@ -17,3 +79,14 @@ ion-icon{
     width: 100%;
     height:100vh;
 }
+.demo{
+    height:100vh;
+    width:100%;
+    opacity:235%;
+    filter:blur(2px);
+}
+
+
+
+/*First page*/
+
