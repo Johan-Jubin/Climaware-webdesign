@@ -179,3 +179,22 @@ input{
 .register-link a:hover{
     text-decoration: underline;
 }
+
+
+/*footer*/
+footer{
+    display: flex;
+    justify-content: space-around;
+}
+.footpara, .contact-foot{
+    text-align: center;
+    flex:1 1 1;
+    padding:5em 7em 5em 7em;
+}
+.footpara{
+    border: none;
+    border-right:5px solid rgba(23, 105, 188, 0.3);
+}
+.contact-foot li{
+    list-style-type: none;
+}
