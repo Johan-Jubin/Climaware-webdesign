@@ -10,6 +10,9 @@ images[1] = 'images/2nd-bg.jpg';
 images[2] = 'images/3rd-bg.jpg';
 images[3] = 'images/4th-bg.jpg';
 images[4] = 'images/5th-bg.jpg';
+images[5] = 'images/demo-6th.jpg';
+images[6] = 'images/demo-7th.jpg';
+images[7] = 'images/8th-demo.jpg';
 
 // Change image
 function changeImg() {
