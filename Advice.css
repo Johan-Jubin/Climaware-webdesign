@@ -1,0 +1,23 @@
+:root{
+    --pri-color:#142434;
+    --sec-color:#17fcfc;
+    --ter-color:#71AC3C;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(31, 39, 49);
+    color:white;
+}
+
+.head{
+    text-align:center;
+    padding:50px;
+    border:2px solid var(--pri-color);
+    margin-bottom:15px;
+}
